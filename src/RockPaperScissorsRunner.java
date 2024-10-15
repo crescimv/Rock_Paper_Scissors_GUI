@@ -1,8 +1,6 @@
-import javax.swing.*;
-import java.lang.annotation.Inherited;
-
-public class Main {
+public class RockPaperScissorsRunner {
     public static void main(String[] args) {
-        JFrame RockPaperScissorsFrame = new InheritedFrame();
+        RockPaperScissorsFrame frame = new RockPaperScissorsFrame();
+        frame.guiSettings();
     }
 }
